@@ -3,8 +3,10 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  margin: 8px 8px;
+  height: 80px;
   pointer-events: none;
+  border-radius: 50%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -15,11 +17,11 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 20vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: stretch;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,4 +37,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+.button{
+  background-color: black;
+  color:white;
+}
+.guns{
+  margin-top: 10px;
+  height:200px;
 }
